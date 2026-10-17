@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "reviewed_rule_count": 18,
+  "limits": "引用片段匹配校验不等于外部科学事实核验；仅这些规则经过本轮来源核对。",
+  "rules": [
+    {
+      "rule_id": "M01",
+      "source_topic_ids": [
+        "5125484815512554"
+      ],
+      "domain": "goal-and-delivery",
+      "title": "用可检查的交付物蒸馏经验",
+      "evidence_quote": "从第一个checklist一直核对到最后一个checklist",
+      "action": "把重复踩坑转成用户能自行核对的清单；每项同时给出完成判据和修改动作。",
+      "boundary": "来源是作者个人带组经验；不能把Checklist代替领域事实验证。",
+      "attribution": "Andy的来源内建议；执行步骤为本Agent操作化",
+      "review_status": "source_passage_read_and_quote_checked",
+      "review_scope": "所引原答复及相邻段落，不声称整条长文所有外链已复核",
+      "source_url": "https://wx.zsxq.com/group/15552141181242/topic/5125484815512554",
+      "source_date": "2025-07-04T14:00:18.883+0800"
+    },
+    {
+      "rule_id": "M02",
+      "source_topic_ids": [
+        "5125484815512554"
+      ],
+      "domain": "goal-and-delivery",
+      "title": "目标与关键结果分开",
+      "evidence_quote": "我们的目标是什么，为了达成这个目标，要达成哪几个关键结果",
+      "action": "先写目标、关键产物、资源约束和验收标准，再选工具。",
+      "boundary": "目标和数字由具体任务确定，不擅自要求每个人发某档次论文。",
+      "attribution": "Andy的来源内建议；执行步骤为本Agent操作化",
+      "review_status": "source_passage_read_and_quote_checked",
+      "review_scope": "所引原答复及相邻段落，不声称整条长文所有外链已复核",
+      "source_url": "https://wx.zsxq.com/group/15552141181242/topic/5125484815512554",
+      "source_date": "2025-07-04T14:00:18.883+0800"
+    },
+    {
+      "rule_id": "M03",
+      "source_topic_ids": [
+        "82811821521512582"
+      ],
+      "domain": "search-cluster-converge",
+      "title": "检索失败后做删除测试和反馈迭代",
+      "evidence_quote": "是不是你没有大胆去删你要搜的内容",
+      "action": "保留每次检索式和命中情况，检查无实体意义的符号/约束，逐个删改，再从相关结果取同义词。",
+      "boundary": "作者原文承认存在搜不到的内容；不能宣称检索必定成功。",
+      "attribution": "Andy的来源内建议；执行步骤为本Agent操作化",
+      "review_status": "source_passage_read_and_quote_checked",
+      "review_scope": "所引原答复及相邻段落，不声称整条长文所有外链已复核",
+      "source_url": "https://wx.zsxq.com/group/15552141181242/topic/82811821521512582",
+      "source_date": "2025-12-20T16:35:15.897+0800"
+    },
+    {
+      "rule_id": "M04",
+      "source_topic_ids": [
+        "2852451881588451"
+      ],
+      "domain": "search-cluster-converge",
+      "title": "先按任务焦点聚类",
+      "evidence_quote": "为了分组而分组",
+      "action": "先找核心文献和必要证据类型，只在高相关子集中分类；无进展时再扩圈。",
+      "boundary": "系统综述应另做完整检索和方法登记；不能用窄筛选冒充全貌。",
+      "attribution": "Andy的来源内建议；执行步骤为本Agent操作化",
+      "review_status": "source_passage_read_and_quote_checked",
+      "review_scope": "所引原答复及相邻段落，不声称整条长文所有外链已复核",
+      "source_url": "https://wx.zsxq.com/group/15552141181242/topic/2852451881588451",
+      "source_date": "2025-06-25T16:55:53.855+0800"
+    },
+    {
+      "rule_id": "M05",
+      "source_topic_ids": [
+        "5124214551281214"
+      ],
+      "domain": "search-cluster-converge",
+      "title": "跨域迁移操作而非机械搬名词",
+      "evidence_quote": "然后把你专有名词换成你领域中的专有名词",
+      "action": "把案例拆成对象、功能、约束和操作；替换术语后复查领域假设是否仍成立。",
+      "boundary": "迁移只是候选方案，异领域机制、模型或测量需再验证。",
+      "attribution": "Andy的来源内建议；执行步骤为本Agent操作化",
+      "review_status": "source_passage_read_and_quote_checked",
+      "review_scope": "所引原答复及相邻段落，不声称整条长文所有外链已复核",
+      "source_url": "https://wx.zsxq.com/group/15552141181242/topic/5124214551281214",
+      "source_date": "2025-09-27T14:47:04.389+0800"
+    },
+    {
+      "rule_id": "M06",
+      "source_topic_ids": [
+        "1524115154445822"
+      ],
+      "domain": "evidence-and-retrieval",
+      "title": "复现基线尽量贴近目标体系",
+      "evidence_quote": "你刚开始复现的时候，最好跟你的相关度越高越好",
+      "action": "先选择催化剂/对象都尽量接近的可验证基线，再改变一个因素观察差异。",
+      "boundary": "材料案例中的具体机理只是候选解释；不能自动外推其他领域。",
+      "attribution": "Andy的来源内建议；执行步骤为本Agent操作化",
+      "review_status": "source_passage_read_and_quote_checked",
+      "review_scope": "所引原答复及相邻段落，不声称整条长文所有外链已复核",
+      "source_url": "https://wx.zsxq.com/group/15552141181242/topic/1524115154445822",
+      "source_date": "2025-06-22T11:39:17.496+0800"
+    },
+    {
+      "rule_id": "M07",
+      "source_topic_ids": [
+        "5125542145251444"
+      ],
+      "domain": "minimum-validation",
+      "title": "复现可以是模块级而非整项搬运",
+      "evidence_quote": "其中我们复现的并不是别人的一个完整的工作，而只是一部分",
+      "action": "拆分实现单元，先验证最关键模块再组合；保留每个模块的输入、条件和输出。",
+      "boundary": "组合复现不等于自动创新，且必须遵守引用、许可和数据合规要求。",
+      "attribution": "Andy的来源内建议；执行步骤为本Agent操作化",
+      "review_status": "source_passage_read_and_quote_checked",
+      "review_scope": "所引原答复及相邻段落，不声称整条长文所有外链已复核",
+      "source_url": "https://wx.zsxq.com/group/15552141181242/topic/5125542145251444",
+      "source_date": "2025-04-24T21:14:42.383+0800"
+    },
+    {
+      "rule_id": "M08",
+      "source_topic_ids": [
+        "1524881812858552"
+      ],
+      "domain": "mechanism-and-evidence",
+      "title": "从真实反馈中的争议凝练问题",
+      "evidence_quote": "我认为科学问题不是文字游戏，科学问题就是为什么",
+      "action": "记录不同使用方对同一条件的冲突反馈，追问未知关系，再设计能区分解释的研究。",
+      "boundary": "这是选题来源之一；产业反馈不替代数据，也非所有学科都以产业应用为目标。",
+      "attribution": "Andy的来源内建议；执行步骤为本Agent操作化",
+      "review_status": "source_passage_read_and_quote_checked",
+      "review_scope": "所引原答复及相邻段落，不声称整条长文所有外链已复核",
+      "source_url": "https://wx.zsxq.com/group/15552141181242/topic/1524881812858552",
+      "source_date": "2025-08-28T12:28:36.417+0800"
+    },
+    {
+      "rule_id": "M09",
+      "source_topic_ids": [
+        "22811825128245411"
+      ],
+      "domain": "mechanism-and-evidence",
+      "title": "对照异常先拿证据",
+      "evidence_quote": "你先要拿到证据",
+      "action": "保留全部重复测量、异常和对照，检查基准样品偏低及制备差异，避免只挑最大差异曲线。",
+      "boundary": "不把作者举例的违规做法当建议；需统计设计与代表性取样，不能两条曲线证明因果。",
+      "attribution": "Andy的来源内建议；执行步骤为本Agent操作化",
+      "review_status": "source_passage_read_and_quote_checked",
+      "review_scope": "所引原答复及相邻段落，不声称整条长文所有外链已复核",
+      "source_url": "https://wx.zsxq.com/group/15552141181242/topic/22811825128245411",
+      "source_date": "2025-12-12T12:13:19.731+0800"
+    },
+    {
+      "rule_id": "M10",
+      "source_topic_ids": [
+        "2852451881588451"
+      ],
+      "domain": "minimum-validation",
+      "title": "先实现可验证基线再识别痛点",
+      "evidence_quote": "你一定会发现新的痛点的",
+      "action": "选可解释的已有基线，记录复现差距；把真实差距转为候选问题。",
+      "boundary": "不把“必定”作为保证；不能将微小拼接自动称为创新。",
+      "attribution": "Andy的来源内建议；执行步骤为本Agent操作化",
+      "review_status": "source_passage_read_and_quote_checked",
+      "review_scope": "所引原答复及相邻段落，不声称整条长文所有外链已复核",
+      "source_url": "https://wx.zsxq.com/group/15552141181242/topic/2852451881588451",
+      "source_date": "2025-06-25T16:55:53.855+0800"
+    },
+    {
+      "rule_id": "M11",
+      "source_topic_ids": [
+        "22811885458821221"
+      ],
+      "domain": "minimum-validation",
+      "title": "评估实验成功窗口与重复成本",
+      "evidence_quote": "就是找那种容错区间高的实验",
+      "action": "记录哪些条件改变会使实验失效，比较稳健路线和继续排障的成本，设停止与重选条件。",
+      "boundary": "不是让所有难实验放弃；基础研究价值、安全和可靠性优先于唯发表导向。",
+      "attribution": "Andy的来源内建议；执行步骤为本Agent操作化",
+      "review_status": "source_passage_read_and_quote_checked",
+      "review_scope": "所引原答复及相邻段落，不声称整条长文所有外链已复核",
+      "source_url": "https://wx.zsxq.com/group/15552141181242/topic/22811885458821221",
+      "source_date": "2025-12-04T14:51:56.023+0800"
+    },
+    {
+      "rule_id": "M12",
+      "source_topic_ids": [
+        "1525852211485212"
+      ],
+      "domain": "paper-and-fund-synthesis",
+      "title": "结果与讨论要区分描述和解释",
+      "evidence_quote": "一部分就是类似看图说话的一部分，第二部分是看图说话完了之后，要拔高一些的内容",
+      "action": "为每张图分别记录观察、解释、证据限制和贡献关联，再组织段落。",
+      "boundary": "不教规避查重；改写仍须引用，AI政策依期刊/机构现行规定核查。",
+      "attribution": "Andy的来源内建议；执行步骤为本Agent操作化",
+      "review_status": "source_passage_read_and_quote_checked",
+      "review_scope": "所引原答复及相邻段落，不声称整条长文所有外链已复核",
+      "source_url": "https://wx.zsxq.com/group/15552141181242/topic/1525852211485212",
+      "source_date": "2025-03-05T13:37:32.335+0800"
+    },
+    {
+      "rule_id": "M13",
+      "source_topic_ids": [
+        "5121845522152514"
+      ],
+      "domain": "paper-and-fund-synthesis",
+      "title": "澄清前言先行的来源内倾向",
+      "evidence_quote": "我个人是习惯先把前言写好的",
+      "action": "先明确贡献主线与证据计划；采用前言先行可以检查论证是否连贯。",
+      "boundary": "这是Andy个人/带组偏好，非所有学科唯一顺序；旧“Andy先R&D”归因错误已纠正。",
+      "attribution": "Andy的来源内建议；执行步骤为本Agent操作化",
+      "review_status": "source_passage_read_and_quote_checked",
+      "review_scope": "所引原答复及相邻段落，不声称整条长文所有外链已复核",
+      "source_url": "https://wx.zsxq.com/group/15552141181242/topic/5121845522152514",
+      "source_date": "2025-03-10T19:55:48.042+0800"
+    },
+    {
+      "rule_id": "M14",
+      "source_topic_ids": [
+        "22811822245285281"
+      ],
+      "domain": "paper-and-fund-synthesis",
+      "title": "图表与原始数据一致性自查",
+      "evidence_quote": "要将原始数据调整为自己便于自查格式的形式",
+      "action": "保留原始数据不可变副本，另建汇总和对比视图，核对图表与原记录的一致性。",
+      "boundary": "此处“调整”解释为核对格式，不是篡改数据；异常和排除都需可追溯。",
+      "attribution": "Andy的来源内建议；执行步骤为本Agent操作化",
+      "review_status": "source_passage_read_and_quote_checked",
+      "review_scope": "所引原答复及相邻段落，不声称整条长文所有外链已复核",
+      "source_url": "https://wx.zsxq.com/group/15552141181242/topic/22811822245285281",
+      "source_date": "2025-12-15T19:03:30.355+0800"
+    },
+    {
+      "rule_id": "M15",
+      "source_topic_ids": [
+        "2852228545281521"
+      ],
+      "domain": "paper-and-fund-synthesis",
+      "title": "综述结构要显式组织逻辑",
+      "evidence_quote": "而不是说只会把信息依次罗列出来，让读者去自己总结背后的逻辑性",
+      "action": "检查相邻章节区分度、同层子标题共性，围绕核心问题组织比较而非逐篇罗列。",
+      "boundary": "标题个数只是作者在此案例的经验值，不是固定3-5条的普遍定律。",
+      "attribution": "Andy的来源内建议；执行步骤为本Agent操作化",
+      "review_status": "source_passage_read_and_quote_checked",
+      "review_scope": "所引原答复及相邻段落，不声称整条长文所有外链已复核",
+      "source_url": "https://wx.zsxq.com/group/15552141181242/topic/2852228545281521",
+      "source_date": "2025-04-05T16:55:47.434+0800"
+    },
+    {
+      "rule_id": "M16",
+      "source_topic_ids": [
+        "5124228885452584"
+      ],
+      "domain": "decision-and-communication",
+      "title": "把人脉手段还原到目标与资源",
+      "evidence_quote": "扩充人脉为了什么呢？",
+      "action": "把合作、申请和能力建设分别列出其目标、机会窗口和投入，避免用社交替代实际成果。",
+      "boundary": "涉及年龄资格和资助规则的说法需查当年官方政策，不把人际关系简化为利益交换定律。",
+      "attribution": "Andy的来源内建议；执行步骤为本Agent操作化",
+      "review_status": "source_passage_read_and_quote_checked",
+      "review_scope": "所引原答复及相邻段落，不声称整条长文所有外链已复核",
+      "source_url": "https://wx.zsxq.com/group/15552141181242/topic/5124228885452584",
+      "source_date": "2025-09-12T18:52:54.827+0800"
+    },
+    {
+      "rule_id": "M17",
+      "source_topic_ids": [
+        "22811515441221511"
+      ],
+      "domain": "evidence-and-retrieval",
+      "title": "读者案例：论文全文回查代码地址",
+      "evidence_quote": "全文找link",
+      "action": "在论文全文、脚注、参考文献和补充材料搜索代码地址，逐个核实链接、许可与能否运行。",
+      "boundary": "这是Andy转载的读者分享，不是Andy本人原话；作者说明仅在计算机/通信场景有经验。",
+      "attribution": "读者“应该的不应该”的分享；Andy发布不等于所有文字均为Andy所写",
+      "review_status": "source_passage_read_and_quote_checked",
+      "review_scope": "所引原答复及相邻段落，不声称整条长文所有外链已复核",
+      "source_url": "https://wx.zsxq.com/group/15552141181242/topic/22811515441221511",
+      "source_date": "2025-11-11T13:31:11.313+0800"
+    },
+    {
+      "rule_id": "M18",
+      "source_topic_ids": [
+        "8854582228421442"
+      ],
+      "domain": "ai-and-tools",
+      "title": "AI方案仍需拆解与验证",
+      "evidence_quote": "你需要的不是别人已经铺好的路，而是从别人的路中找到可以为你所用的砖",
+      "action": "把AI生成路线拆成模块，对应已有论文及可运行实现，再明确环境、基线、评价指标和失败条件。",
+      "boundary": "该帖前半是读者原问题，答复在后；不能把AI生成代码存在当验证完成。",
+      "attribution": "Andy的来源内建议；执行步骤为本Agent操作化",
+      "review_status": "source_passage_read_and_quote_checked",
+      "review_scope": "所引原答复及相邻段落，不声称整条长文所有外链已复核",
+      "source_url": "https://wx.zsxq.com/group/15552141181242/topic/8854582228421442",
+      "source_date": "2025-09-11T20:31:10.931+0800"
+    }
+  ]
+}

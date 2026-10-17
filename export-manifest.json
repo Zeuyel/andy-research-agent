@@ -1,0 +1,247 @@
+{
+  "format_version": 1,
+  "exported_at": "2026-10-17T15:08:35.019016+00:00",
+  "visibility": "private",
+  "edition": "curated-results-not-raw-backup",
+  "source_corpus_indexed_topics": 1874,
+  "source_complete": false,
+  "curated_counts": {
+    "retrieval/topic-reading-cards.jsonl": 43,
+    "retrieval/article-reading-cards.jsonl": 27,
+    "video-text/reviewed-knowledge-cards.jsonl": 97,
+    "methods/verified-rules.json": 18
+  },
+  "hold_videos": 7,
+  "excluded": [
+    "raw topic full texts",
+    "complete transcripts",
+    "raw comments",
+    "attachments",
+    "media",
+    "credentials",
+    "signed URLs",
+    "collection scripts"
+  ],
+  "notes": [
+    "Only curated excerpts are included.",
+    "Raw-source exact-quote checks require separately authorized source workspace.",
+    "Manifest hashes exclude this manifest and generated validation reports."
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 214,
+      "sha256": "d8f8db5299a2af7d17a7ee1a845334d262b35d2b649876f8c7ee98de73a39537"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2558,
+      "sha256": "0cdd68c3b1198f9c7b5672f46aab23a0a5dea3fc2e19d7256344edfcacefefeb"
+    },
+    {
+      "path": "docs/data-policy.md",
+      "bytes": 1237,
+      "sha256": "ab7cf6f979bac8ffad1740e89fbafac54cbc21dbcb5b14ce0e506be4a9b980b6"
+    },
+    {
+      "path": "docs/progress.md",
+      "bytes": 3259,
+      "sha256": "dfcd5ebb8a277b99456187ffee03f61cc60a396d63253aa5e298a548d18da56b"
+    },
+    {
+      "path": "knowledge/methods/verified-rules.json",
+      "bytes": 16571,
+      "sha256": "b4cffb4168f3568856f1b2c93f6c1c41de4d380c2ef8bdce096f413f5370a4c1"
+    },
+    {
+      "path": "knowledge/retrieval/article-reading-cards.jsonl",
+      "bytes": 58246,
+      "sha256": "b0366c7992009a408db66e486fab49cc634e2a78e46d3160c0fa6658aeed631e"
+    },
+    {
+      "path": "knowledge/retrieval/topic-reading-cards.jsonl",
+      "bytes": 81300,
+      "sha256": "ffc5892433121d36be354f46b257f9247ecb82e8c0cf2f35831b7493537d2028"
+    },
+    {
+      "path": "knowledge/video-text/reviewed-knowledge-cards.jsonl",
+      "bytes": 301724,
+      "sha256": "895b4d2ff081a4ae3938deb821807480328d507b132f6a1afeb1569878c4f91b"
+    },
+    {
+      "path": "scripts/test_packaged_data.py",
+      "bytes": 1412,
+      "sha256": "3f59ef0bf0d3199a8fdefd90e8b8e6b492c4f0e4fcd81472c115bad44b4b3800"
+    },
+    {
+      "path": "scripts/validate_export.py",
+      "bytes": 886,
+      "sha256": "a403c6099e0aeb839cdd58385d110508f6a5ceebe4b73ba240861bc19d40f7c9"
+    },
+    {
+      "path": "skills/andy-research-agent/SKILL.md",
+      "bytes": 8464,
+      "sha256": "2e6716cb19c118c2073f975083e51fffcdeb209a9094791d2bacbecc4667c8df"
+    },
+    {
+      "path": "skills/andy-research-agent/references/agent-contract.md",
+      "bytes": 2091,
+      "sha256": "e969a13ff384606b34b5b1bf5fc58e79c65e295d6952f710a711ad8b232041df"
+    },
+    {
+      "path": "skills/andy-research-agent/references/ai-and-tools.md",
+      "bytes": 1508,
+      "sha256": "b31d7876f99f575d4bde3e3b477fea951a01811a846520c395ef9dab8e800bac"
+    },
+    {
+      "path": "skills/andy-research-agent/references/corpus-scope.md",
+      "bytes": 4825,
+      "sha256": "431bfbc53d026003b9289a60ad249fee73d6f8cd9e20f4ccaf528e665c9459cc"
+    },
+    {
+      "path": "skills/andy-research-agent/references/decision-and-communication.md",
+      "bytes": 1610,
+      "sha256": "728857de92a55a2160b8323ba625921fb2a66b6941b7d6a0c20bfe038d2a9c38"
+    },
+    {
+      "path": "skills/andy-research-agent/references/evaluation-rubric.md",
+      "bytes": 1835,
+      "sha256": "951da797fadb5608c4e88caeb17f69ebbffbb7714d479fb0a7e63d14551f1f95"
+    },
+    {
+      "path": "skills/andy-research-agent/references/evidence-and-retrieval.md",
+      "bytes": 1769,
+      "sha256": "5249444a62b80eb9a49de988e9339389a073255cc6baa044f8443ee7309fa353"
+    },
+    {
+      "path": "skills/andy-research-agent/references/evidence-policy.md",
+      "bytes": 3390,
+      "sha256": "751d4e21f5e773b72e524f7f18965d5ca14eabe3598238d5112a070e42fda71b"
+    },
+    {
+      "path": "skills/andy-research-agent/references/goal-and-delivery.md",
+      "bytes": 1724,
+      "sha256": "f41e7f5115262f6d2f3f4a5390f8cddd6f82dc3989c615f64c7ac2969b769d08"
+    },
+    {
+      "path": "skills/andy-research-agent/references/knowledge-retrieval.md",
+      "bytes": 1118,
+      "sha256": "d3aa2801bcdf34f8689a94c32d4f0dfa25f500e5cf728dae97eab3294fa9491c"
+    },
+    {
+      "path": "skills/andy-research-agent/references/mechanism-and-evidence.md",
+      "bytes": 2439,
+      "sha256": "482250708edafddd6a9abdbd5248928a609ffda20743534769bf297678d33667"
+    },
+    {
+      "path": "skills/andy-research-agent/references/method-routing.md",
+      "bytes": 2448,
+      "sha256": "e4a6136bc66b8218873479f542dce4a571e1e464ad19cdb16f8fa25eeb203e0b"
+    },
+    {
+      "path": "skills/andy-research-agent/references/minimum-validation.md",
+      "bytes": 2052,
+      "sha256": "c134ef37545d18590fd968b2d83a40af84f7945726c36ec601c199bd45b22ed2"
+    },
+    {
+      "path": "skills/andy-research-agent/references/paper-and-fund-synthesis.md",
+      "bytes": 3348,
+      "sha256": "c9ce8669ccfd892b93b8bfc7a408231969cd3e4e567fd37afb35cd279443ec15"
+    },
+    {
+      "path": "skills/andy-research-agent/references/search-cluster-converge.md",
+      "bytes": 2201,
+      "sha256": "21e618a48884ca96485a38a151ce711304ac137b3d286a4128dfd4bdae4343bc"
+    },
+    {
+      "path": "skills/andy-research-agent/references/source-backed-rules.json",
+      "bytes": 16571,
+      "sha256": "b4cffb4168f3568856f1b2c93f6c1c41de4d380c2ef8bdce096f413f5370a4c1"
+    },
+    {
+      "path": "skills/andy-research-agent/references/source-backed-rules.md",
+      "bytes": 9650,
+      "sha256": "8338e46a6c819484828170e1cee2aee6ad886ba50e65fba7d3e9cbade777b30d"
+    },
+    {
+      "path": "skills/andy-research-agent/scripts/check_agent.py",
+      "bytes": 1670,
+      "sha256": "eade029c07f944453a2bb9cc4b5a7e1ece8efbb8a313e72f0b3756bea91b004e"
+    },
+    {
+      "path": "skills/andy-research-agent/scripts/retrieve.py",
+      "bytes": 239,
+      "sha256": "1e9038a6b54161e29c00a1c9087cec7705ccbef602bb82b4162bb422a2f711c0"
+    },
+    {
+      "path": "skills/andy-research-agent/scripts/retrieve_knowledge.py",
+      "bytes": 10224,
+      "sha256": "a687848aa25dac34962bec9b6433a307f1725deb800269c856c7a71fcbd78399"
+    },
+    {
+      "path": "skills/andy-research-agent/scripts/test_retrieve_knowledge.py",
+      "bytes": 10598,
+      "sha256": "d7df8439e8da3fa3ab21d62ecb47db4ae39cfa60a7b64f1148940031bcc8c259"
+    },
+    {
+      "path": "skills/keyanlun-research-workflow/SKILL.md",
+      "bytes": 8637,
+      "sha256": "72c186cfa5a0a4320aee9bd46ca5de4fd03ceabdd1ca03c937abdc14a3bdfd04"
+    },
+    {
+      "path": "skills/keyanlun-research-workflow/references/ai-research-collaboration.md",
+      "bytes": 449,
+      "sha256": "479e9830404b1e97d73a4bf36a58595492bd89eb61ddd0abc4431527ae313fea"
+    },
+    {
+      "path": "skills/keyanlun-research-workflow/references/andy-corpus-manifest.md",
+      "bytes": 879,
+      "sha256": "082197afc18baaee30fc9a54f4ad85bfaa5918193ed17c7c81c837983d937a45"
+    },
+    {
+      "path": "skills/keyanlun-research-workflow/references/andy-methods.md",
+      "bytes": 12554,
+      "sha256": "bfe8df53af6c96c9ab4f3e0479cf0ff355fc56b537f44c24029eaeac174c9dd7"
+    },
+    {
+      "path": "skills/keyanlun-research-workflow/references/expansion-protocol.md",
+      "bytes": 1858,
+      "sha256": "5b92920722e1745b8a070d4251e48e562728fb805bf214a692fb54de0896a71c"
+    },
+    {
+      "path": "skills/keyanlun-research-workflow/references/literature-search.md",
+      "bytes": 455,
+      "sha256": "0692ecbd6a13e13a63eaed73bf1f114736c75ea163333728b39a5e1765511d34"
+    },
+    {
+      "path": "skills/keyanlun-research-workflow/references/method-and-evidence.md",
+      "bytes": 2340,
+      "sha256": "9b9ceb59b49a8506084535c1842b884f05f98de10e9b05a2d0279e5203f0617c"
+    },
+    {
+      "path": "skills/keyanlun-research-workflow/references/module-registry.md",
+      "bytes": 2269,
+      "sha256": "38a46e149900b5d35c6f639bfcbf87136faf8231244265acb1a51ec5a07f4bbf"
+    },
+    {
+      "path": "skills/keyanlun-research-workflow/references/paper-writing.md",
+      "bytes": 428,
+      "sha256": "71d026055fe98769bb06426e464f8e7996b62a72dc11d3aec355fb673eb8dbc6"
+    },
+    {
+      "path": "skills/keyanlun-research-workflow/references/video-index.md",
+      "bytes": 1233,
+      "sha256": "d8a3f8281780a614fbdb3d81e826d4786791cd6085134b07cdb2cc3af9cd97ba"
+    },
+    {
+      "path": "skills/keyanlun-research-workflow/scripts/add_module.py",
+      "bytes": 1232,
+      "sha256": "8c237177193c835ee7862515c693a8064dbccccbaf4cd162a53bafce63d027c1"
+    },
+    {
+      "path": "skills/keyanlun-research-workflow/scripts/check_modules.py",
+      "bytes": 919,
+      "sha256": "4f457263378a29f36bbaa0ea4462fa7abebc50049affa31b018d96aeebb17054"
+    }
+  ]
+}
